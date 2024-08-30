@@ -1,0 +1,21 @@
+.main-footer{
+    display: flex;
+    font-size: 1vw;
+    gap: 2vw;
+    padding: 7vw;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+.main-footer h1{
+    font-size: 1.5vw;
+    width: 10vw;
+}
+.main-footer button{
+    padding: 0.65vw  1vw;
+    margin-left: 0.5vw;
+    border-radius: 0.2vw;
+    background-color: rgb(235, 168, 43);
+    color: white;
+    border: none;
+}
