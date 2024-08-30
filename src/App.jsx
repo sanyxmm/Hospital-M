@@ -7,11 +7,12 @@ import Home from "./Pages/Home/Home";
 import Footer from "./Components/Footer/Footer";
 import { AppProvider } from "./context";
 import PatientAdmission from "./Pages/PateintAdmission/PatientAdmission";
+import Signup from "./Pages/Signup/Signup";
 
 function App() {
   return (
     <AppProvider>
-      <Navbar />
+     <Navbar />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}/>

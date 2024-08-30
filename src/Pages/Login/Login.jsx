@@ -4,7 +4,7 @@ import { AppContext } from "../../context";
 import "./Login.css";
 
 const Login = ({}) => {
-  const { closeMenu, openlogPop, openlogchk } = useContext(AppContext);
+  const { closeMenu, openRegister } = useContext(AppContext);
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -22,7 +22,7 @@ const Login = ({}) => {
           <form className="login-box">
             <div>
               <h1>Login</h1>
-              <a>New User? Sign up</a>
+              <a onClick={openRegister}>New User? Sign up</a>
             </div>
 
             <div>

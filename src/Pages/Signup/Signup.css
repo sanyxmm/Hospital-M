@@ -1,0 +1,87 @@
+.signupForm{
+    align-items: center;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    background-color: initial;
+    display: flex;
+    font-size: 1vw;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: 50;
+}
+
+.form-containe {
+    max-width: 500px;
+    background-color:  #f7f7ff;
+    padding: 20px ;
+    border-radius: 2vw;
+}
+.form-containe h1{
+    text-align: center;
+    padding-bottom: 1vw;
+    font-size: 2.5vw;
+    
+}
+
+
+
+.sectio {
+    margin-bottom: 20px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.sectio h3 {
+    color: #0077b6;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.sectio button{
+    background-color:#00a8df;
+    border: none;
+    border-radius: 2rem;
+    color: #fff;
+    font-size: 1.4em;
+    margin-top: 0.5em;
+    padding: 0.7em;
+    width: 100%;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="radio"],
+input[type="checkbox"] {
+    /* width: 100%; */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+p {
+    font-size: 12px;
+    color: #777;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}

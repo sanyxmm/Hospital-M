@@ -8,14 +8,16 @@ import nurse from "./why.jpg";
 import "./Home.css";
 import Login from "../Login/Login";
 import { AppContext } from "../../context";
+import Signup from "../Signup/Signup";
 const Home = () => {
-  const {register,Menu,openMenu,isFormOpen,openNav,navbtns,closeNav,logPop,logchk,closelogchk,regPop} = useContext(AppContext); 
+  const {register,Menu} = useContext(AppContext); 
   return (
     <div>
        {Menu && <Login/>}
+       {register && <Signup/>}
       <img style={{ objectFit:"cover", width:"100%",paddingTop:"7vw"}} src={slide1} alt="" />
       <div class="sec2">
-        <h1>Best Free Clininc Template</h1>
+        <h1>Integrated Hospital Management System</h1>
         <div>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animidolor
           sit amet consectetur adipisicing elit. Animi, dolorum explicabo.

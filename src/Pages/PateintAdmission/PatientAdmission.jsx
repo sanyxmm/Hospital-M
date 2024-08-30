@@ -97,7 +97,7 @@ const PatientAdmission = () => {
                 <label for="dhb">DHB</label>
              
             </section>
-       
+       <button class="sub" type='submit'>Submit</button>
         </form>
     </div>
     </div>
