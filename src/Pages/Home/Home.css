@@ -25,6 +25,7 @@
 }
 .sec3 h1{
     font-size: 1.5vw;
+    padding-top: 1.6vw;
 }
 .sec3-content{
     width: 25%;
@@ -34,6 +35,15 @@
     justify-content: center;
     padding: 3vw;
     text-align: center;
+}
+.sec3-content i{
+    background-color: white;
+    color: #03509e;
+    border-radius: 3vw;
+    width: 6vw;
+    height: 6vw;
+    font-size: 3vw;
+    padding: 1.5vw 1vw;
 }
 .sec3 img{
     width: 5vw;
@@ -77,6 +87,11 @@
     margin: 1vw;
     text-align: center;
     overflow-x: hidden;
+}
+.sec5-content i{
+    color: #03509e;
+    font-size: 3vw;
+    padding: 1.5vw 1vw;
 }
 .sec5-content h1 {
     font-size: 1.5vw;

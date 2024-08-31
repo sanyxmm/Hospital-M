@@ -29,32 +29,32 @@ const Home = () => {
       </div>
       <div class="sec3">
         <div class="sec3-content">
-          <img src={icon} alt="" />
-          <h1>Bed Availabilty</h1>
+          <i class="fas fa-hospital-alt"></i>
+          <h1>Newest Technologies</h1>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
             debitis!Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </div>
         </div>
         <div class="sec3-content" style={{ backgroundColor:" #0085bc" }}>
-          <img src={icon} alt="" />
-          <h1>Doctor Availabilty</h1>
+        <i class="fas fa-capsules"></i>
+          <h1>Pharma Pipelines</h1>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
             debitis!Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </div>
         </div>
         <div class="sec3-content">
-          <img src={icon} alt="" />
-          <h1>Medicines Availabilty</h1>
+        <i class="fas fa-briefcase-medical"></i>
+          <h1>Customer Satisfaction</h1>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
             debitis!Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </div>
         </div>
         <div class="sec3-content" style={{ backgroundColor: "#0085bc" }}>
-          <img src={icon} alt="" />
-          <h1>Acceptable Policies</h1>
+        <i class="fas fa-user-md"></i>
+          <h1>Experienced Doctor</h1>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
             debitis!Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -92,7 +92,7 @@ const Home = () => {
 </div>
         <div class="sec5-grid">
           <div class="sec5-content">
-            <img src={icon} alt="" />
+          <i class="fas fa-user-md"></i>
             <h1>Doctors Availabilty</h1>
             <div>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut
@@ -100,7 +100,7 @@ const Home = () => {
             </div>
           </div>
           <div class="sec5-content">
-            <img src={icon} alt="" />
+          <i class="fa-solid fa-bed"></i>
             <h1>Bed Availabilty</h1>
             <div>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut
@@ -108,7 +108,7 @@ const Home = () => {
             </div>
           </div>
           <div class="sec5-content">
-            <img src={icon} alt="" />
+          <i class="fa-solid fa-droplet"></i>
             <h1>Blood Availabilty</h1>
             <div>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut
@@ -116,7 +116,7 @@ const Home = () => {
             </div>
           </div>
           <div class="sec5-content">
-            <img src={icon} alt="" />
+          <i class="fa-solid fa-file"></i>
             <h1>Policies Applicable</h1>
             <div>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut
@@ -124,7 +124,7 @@ const Home = () => {
             </div>
           </div>
           <div class="sec5-content">
-            <img src={icon} alt="" />
+          <i class="fa-solid fa-calendar-check"></i>
             <h1>Book Appoiment online</h1>
             <div>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut
@@ -132,7 +132,7 @@ const Home = () => {
             </div>
           </div>
           <div class="sec5-content">
-            <img src={icon} alt="" />
+          <i class="fa-solid fa-location-dot"></i>
             <h1>Location Based Searches</h1>
             <div>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut
