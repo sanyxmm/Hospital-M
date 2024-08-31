@@ -13,12 +13,12 @@ const Home = () => {
   const {register,Menu} = useContext(AppContext); 
   return (
     <div>
-       {Menu && <Login/>}
-       {register && <Signup/>}
+       {/* {Menu && <Login/>} */}
+       {/* {register && <Signup/>} */}
       <img style={{ objectFit:"cover", width:"100%",paddingTop:"7vw"}} src={slide1} alt="" />
       <div class="sec2">
         <h1>Integrated Hospital Management System</h1>
-        <div>
+        <div style={{color:"#6a6a6a"}}>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animidolor
           sit amet consectetur adipisicing elit. Animi, dolorum explicabo.
           Veritatis atque vitae, ipsa aperiam dolorum ea architecto molestias.
@@ -30,7 +30,7 @@ const Home = () => {
       <div class="sec3">
         <div class="sec3-content">
           <img src={icon} alt="" />
-          <h1>Check Availabilty</h1>
+          <h1>Bed Availabilty</h1>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
             debitis!Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -38,7 +38,7 @@ const Home = () => {
         </div>
         <div class="sec3-content" style={{ backgroundColor:" #0085bc" }}>
           <img src={icon} alt="" />
-          <h1>Check Availabilty</h1>
+          <h1>Doctor Availabilty</h1>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
             debitis!Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -46,7 +46,7 @@ const Home = () => {
         </div>
         <div class="sec3-content">
           <img src={icon} alt="" />
-          <h1>Check Availabilty</h1>
+          <h1>Medicines Availabilty</h1>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
             debitis!Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -54,7 +54,7 @@ const Home = () => {
         </div>
         <div class="sec3-content" style={{ backgroundColor: "#0085bc" }}>
           <img src={icon} alt="" />
-          <h1>Check Availabilty</h1>
+          <h1>Acceptable Policies</h1>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
             debitis!Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -64,7 +64,7 @@ const Home = () => {
       <div class="sec4">
         <div>
           <h1>
-            Why choos Health Care with <br />
+            Why choose Health Care with <br />
             Medical Hospital
           </h1>
           <div>
@@ -93,7 +93,7 @@ const Home = () => {
         <div class="sec5-grid">
           <div class="sec5-content">
             <img src={icon} alt="" />
-            <h1>Check Availabilty</h1>
+            <h1>Doctors Availabilty</h1>
             <div>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut
               erat nec leo lobortis blandit.
@@ -101,7 +101,7 @@ const Home = () => {
           </div>
           <div class="sec5-content">
             <img src={icon} alt="" />
-            <h1>Check Availabilty</h1>
+            <h1>Bed Availabilty</h1>
             <div>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut
               erat nec leo lobortis blandit.
@@ -109,7 +109,7 @@ const Home = () => {
           </div>
           <div class="sec5-content">
             <img src={icon} alt="" />
-            <h1>Check Availabilty</h1>
+            <h1>Blood Availabilty</h1>
             <div>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut
               erat nec leo lobortis blandit.
@@ -117,7 +117,7 @@ const Home = () => {
           </div>
           <div class="sec5-content">
             <img src={icon} alt="" />
-            <h1>Check Availabilty</h1>
+            <h1>Policies Applicable</h1>
             <div>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut
               erat nec leo lobortis blandit.
@@ -125,7 +125,7 @@ const Home = () => {
           </div>
           <div class="sec5-content">
             <img src={icon} alt="" />
-            <h1>Check Availabilty</h1>
+            <h1>Book Appoiment online</h1>
             <div>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut
               erat nec leo lobortis blandit.
@@ -133,7 +133,7 @@ const Home = () => {
           </div>
           <div class="sec5-content">
             <img src={icon} alt="" />
-            <h1>Check Availabilty</h1>
+            <h1>Location Based Searches</h1>
             <div>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut
               erat nec leo lobortis blandit.
